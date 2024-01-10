@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5284539088152468734}
   - component: {fileID: 8223779581104799103}
+  - component: {fileID: 9001966244971738688}
+  - component: {fileID: -2219684744645613922}
   m_Layer: 0
   m_Name: Rock1
-  m_TagString: Untagged
+  m_TagString: ResourceObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,6 +57,42 @@ CapsuleCollider:
   m_Radius: 0.55
   m_Height: 1.5
   m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9001966244971738688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207139182649537642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d01ad29811d1264a91353092bc9a46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Res_name: Stone
+  amount: 10
+  Max_Hp: 100
+--- !u!135 &-2219684744645613922
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207139182649537642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.81
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6400267585051508733
 GameObject:
