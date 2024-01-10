@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5284539088152468734}
   - component: {fileID: 8223779581104799103}
   m_Layer: 0
-  m_Name: Tree1
+  m_Name: Rock1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3207139182649537642}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.54, y: 0.44, z: 0.79}
+  m_LocalPosition: {x: -1.1205153, y: 0.46, z: -2.9513602}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52,10 +52,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.35
+  m_Radius: 0.55
   m_Height: 1.5
   m_Direction: 1
-  m_Center: {x: -0.25, y: 0, z: -0.25}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6400267585051508733
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,7 +67,7 @@ GameObject:
   - component: {fileID: 1583542303686504400}
   - component: {fileID: 1736723822540709684}
   m_Layer: 0
-  m_Name: trees_2
+  m_Name: rocks7_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ Transform:
   m_GameObject: {fileID: 6400267585051508733}
   serializedVersion: 2
   m_LocalRotation: {x: 0.35355338, y: 0.35355338, z: -0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: 0, y: 0.56, z: 0}
+  m_LocalPosition: {x: 0, y: 0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1893235206, guid: 9930b591c3135f043a0270e0ad29e330, type: 3}
+  m_Sprite: {fileID: -1244614773, guid: d20e211a23853c945ad44fbb3ab8aef0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
